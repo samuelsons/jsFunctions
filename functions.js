@@ -5,6 +5,9 @@
 // let result = greet('John Grisham', 'Onion Green')
 // console.log(result)
 
+
+/* Temperature Conversion from Celsius to Fahrenheit */
+/*---------------------------------------------------*/
 // Current day temperature forecast in kelvin units.
 const kelvin = 293; 
 
@@ -17,3 +20,5 @@ let Fahrenheit = Celsius * (9/5) + 32;
 // Round the result of Celsius to Fahnrenheit conversion.
 Fahrenheit = Math.floor(Fahrenheit)
 console.log(Fahrenheit)
+
+/* ---End of Temperature Program--- */
