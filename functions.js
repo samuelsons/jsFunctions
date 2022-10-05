@@ -40,7 +40,22 @@
 
 //Initialize an index.
 // Condition for iteration.
-// 
-for (let i = 0; i < 6; i++) {
-    console.log('Loop' + i)
+// Continue iteration for as long as condition returns true.
+
+// for (let i = 0; i < array.length6; i++) {
+//     console.log('Loop' + i)
+//     if (i === 3) break
+// }
+
+
+// For Loop usage in an array data.
+//Print the name of the index upon iteration across array objects.
+const names = ['John', 'Bob', 'Mary', 'Jane']
+
+for (let i = 0; i < names.length; i++) {
+    console.log(names[i])
+    if (i === 2) break
 }
+
+
+
