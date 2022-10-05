@@ -49,13 +49,19 @@
 
 
 // For Loop usage in an array data.
-//Print the name of the index upon iteration across array objects.
-const names = ['John', 'Bob', 'Mary', 'Jane']
+// //Print the name of the index upon iteration across array objects.
+// const names = ['John', 'Bob', 'Mary', 'Jane']
 
-for (let i = 0; i < names.length; i++) {
-    console.log(names[i])
-    if (i === 2) break
+// for (let i = 0; i < names.length; i++) {
+//     console.log(names[i])
+//     if (i === 2) break
+// }
+
+
+//For Of Loop
+
+for (name of names) {
+    console.log(name)
 }
-
 
 
