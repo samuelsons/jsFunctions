@@ -60,8 +60,21 @@
 
 //For Of Loop
 
-for (name of names) {
-    console.log(name)
+// for (name of names) {
+//     console.log(name)
+// }
+
+
+// Back to Functions
+// function greet(theName, favColor) {
+//     console.log("Hello, my name is "+ theName +" and my favorite color is "+ favColor + ".")
+// }
+
+// greet("John", "Blue")
+
+//Function: Tripple a number passed into a function.
+function trippleMe(x) {
+    return 3 * x
 }
 
-
+console.log(trippleMe(9))
