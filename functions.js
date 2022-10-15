@@ -73,8 +73,37 @@
 // greet("John", "Blue")
 
 //Function: Tripple a number passed into a function.
-function trippleMe(x) {
-    return 3 * x
-}
+// function trippleMe(x) {
+//     return 3 * x
+// }
 
-console.log(trippleMe(9))
+// console.log(trippleMe(9))
+
+//Objects
+// let location = 'Lagos'
+// console.log(location.[0]);
+
+
+// Function Objects with ternary operator.
+// const greeting = (person) => {
+//     const name = person ? person.name : 'Stranger'
+//     return `Howdy, ${name}`
+// }
+
+// console.log(greeting({name: 'Samuelsons'}))
+
+//Checking Falsy value
+
+let username = ''
+console.log(username)
+
+
+
+
+
+
+
+
+
+
+
