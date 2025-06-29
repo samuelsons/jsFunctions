@@ -94,16 +94,10 @@
 
 //Checking Falsy value
 
-let username = ''
-console.log(username)
+// let username = ''
+// console.log(username)
 
 
-
-
-
-
-
-
-
+console.log('App Academy Bootcamp'.indexOf("n"))
 
 
